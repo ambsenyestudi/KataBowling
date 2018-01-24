@@ -1,4 +1,5 @@
 ﻿using System;
+using BowlingKata.Bowling;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 namespace BowlingKataUT
@@ -9,6 +10,7 @@ namespace BowlingKataUT
         [TestMethod]
         public void DummyTest()
         {
+            Game game= null;
             Assert.IsTrue(true);
         }
     }
