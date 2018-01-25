@@ -53,6 +53,7 @@ namespace BowlingKata.Bowling
         {
             int result = 0;
             bool wasSpare = false;
+            //only usefull for spares
             foreach (var roll in gamerolls.ToList())
             {
                 if(roll == '/')
