@@ -46,7 +46,6 @@ namespace BowlingKata.Bowling
                    
                 }
             }
-            //TODO figures score form Rolls
 
             return _score;
         }
@@ -77,5 +76,6 @@ namespace BowlingKata.Bowling
             }
             return result;
         }
+        //TODO figure score for a spare
     }
 }
